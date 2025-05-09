@@ -2,14 +2,79 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Game Statistics</title>
+    <style>
+        table {
+            width: 70%;
+            border-collapse: collapse;
+            margin: 20px auto;
+            background-color: #f0f8ff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        thead {
+            background-color: #4682b4;
+            color: white;
+        }
+        th, td {
+            border: 1px solid #333;
+            padding: 10px;
+            text-align: center;
+        }
+        tbody tr:nth-child(even) {
+            background-color: #e6f2ff;
+        }
+        tbody tr:hover {
+            background-color: #d1ecf1;
+        }
+        caption {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            color: #333;
+        }
+    </style>
 </head>
 <body>
-    <!-- add table here -->
-
-        
+    <table>
+        <caption>eSports Tournament Stats</caption>
+        <thead>
+            <tr>
+                <th>NAME</th>
+                <th>KILLS</th>
+                <th>SAVED</th>
+                <th>WINS</th>
+                <th>Accuracy (%)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>ShadowSniper</td>
+                <td>25</td>
+                <td>320</td>
+                <td>10</td>
+                <td>78.5</td>
+            </tr>
+            <tr>
+                <td>GhostRider</td>
+                <td>30</td>
+                <td>290</td>
+                <td>12</td>
+                <td>72.1</td>
+            </tr>
+            <tr>
+                <td>BlazeQueen</td>
+                <td>28</td>
+                <td>340</td>
+                <td>15</td>
+                <td>80.3</td>
+            </tr>
+            <tr>
+                <td>CyberWolf</td>
+                <td>22</td>
+                <td>275</td>
+                <td>9</td>
+                <td>75.0</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 </html>
